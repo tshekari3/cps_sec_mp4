@@ -1,2 +1,5 @@
 .DS_Store
 .DS_Store.swp
+.idea
+.venv
+__pycache__
