@@ -3,6 +3,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset
 from data_reader import DataReader
 
+
 class Trainer:
     """
     Class responsible for training a neural network model.
@@ -19,7 +20,7 @@ class Trainer:
         self.criterion = None  # Define the appropriate loss function
         # Define the optimizer.
         self.optimizer = None  # Initialize the optimizer with model parameters and learning rate
-        
+
     def train_model(self, data_reader: DataReader) -> None:
         """
         Trains the model on data provided by the DataReader instance.

@@ -11,6 +11,7 @@ MODEL_DIR_PATH = os.path.join(os.getcwd(), "model/")
 FEATURE_FILE_PATH = DATA_DIR_PATH + "train_features.csv"
 LABEL_FILE_PATH = DATA_DIR_PATH + "train_labels.csv"
 
+
 def main() -> None:
     """
     Main function to execute model training pipeline.

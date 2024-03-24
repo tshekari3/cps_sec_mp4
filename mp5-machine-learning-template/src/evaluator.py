@@ -1,10 +1,11 @@
-from sklearn.metrics import accuracy_score, precision_score, f1_score
+from sklearn.metrics import accuracy_score, precision_score, f1_score, recall_score
 import torch
 import torch.nn as nn
 from data_reader import DataReader
 import logging
 logging.basicConfig()
 logging.getLogger().setLevel(logging.DEBUG)
+
 
 class Evaluator:
     """
@@ -27,10 +28,13 @@ class Evaluator:
         self.model.eval()
         
         # Implement prediction with the model here. Use torch.no_grad():
-        
+        with torch.no_grad():
+            y_pred_tensor = self.model(data_reader.X_tensor)
+
         # Convert predictions to binary format suitable for evaluation metrics
         
         # TODO: Implement the loop to calculate and print metrics for each branch
+        # You need true adn predicted labels for each branch in the loop
         
         # Hint: Use accuracy_score, precision_score, and recall_score from sklearn.metrics
         # Remember to handle zero division in precision and recall calculations

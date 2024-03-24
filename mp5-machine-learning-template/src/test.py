@@ -14,6 +14,7 @@ SCALER_FILE_PATH = MODEL_DIR_PATH + 'scaler.joblib'
 MODEL_FILE_PATH = MODEL_DIR_PATH + 'model.pth'
 SELECTED_FEATURES_FILE_PATH = MODEL_DIR_PATH + 'selected_feature_columns.txt'
 
+
 def main() -> None:
     """
     Main function to evaluate the neural network model on a test dataset.
@@ -44,6 +45,7 @@ def main() -> None:
     # 3. Evaluate the model
     evaluator = Evaluator(model)
     evaluator.evaluate(test_data_reader)
+
 
 if __name__ == "__main__":
     main()
