@@ -32,7 +32,7 @@ jupyter notebook
 ```
 
 ## Running Training and Test Workflows
-Once you completed the code skeleton, please navigate to `mp5-machine-learning-template` direcoty in terminal. Then you can run the training and testing workflows with:
+Once you completed the code skeleton, please navigate to `mp5-machine-learning-template` directory in terminal. Then you can run the training and testing workflows with:
 
 ```
 python3 src/train.py
