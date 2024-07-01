@@ -1,6 +1,7 @@
-pandas
-numpy
-scikit-learn
-torch
-jupyter
-ipykernel
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+torch==2.2.1
+jupyter==1.0.0
+ipykernel==6.29.3
+joblib==1.4.2
