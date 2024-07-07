@@ -33,7 +33,7 @@ class Evaluator:
             data_reader (DataReader): An instance of DataReader containing the dataset on which the model is to be evaluated.
 
         Returns:
-            None
+            avg_accuracy, avg_f1: Average accuracy and F1 score across all branches
         """
         self.model.eval()  # Set the model to evaluation mode
         with torch.no_grad():
