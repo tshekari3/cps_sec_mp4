@@ -17,6 +17,7 @@ class DataReader:
     """
 
     # A predefined list of all possible feature names.
+    # Please DO NOT modify this list. Only complete or modify the _find_important_features method. Do not alter any other class methods or features in this file.
     ALL_FEATURE_LIST = ['Pd_bus1', 'Qd_bus1', 'Pd_bus2', 'Qd_bus2', 'Pd_bus3', 'Qd_bus3', 'Pd_bus4',
                         'Qd_bus4', 'Pd_bus5', 'Qd_bus5', 'Pd_bus6', 'Qd_bus6', 'Pd_bus7', 'Qd_bus7',
                         'Pd_bus8', 'Qd_bus8', 'Pd_bus9', 'Qd_bus9', 'Pd_bus10', 'Qd_bus10', 'Pd_bus11',
@@ -125,6 +126,7 @@ class DataReader:
         Returns:
             selected_columns (list): The list of selected feature column names that are most important for the model
         """
+        # Please only complete or modify this method, i.e., _find_important_features method. Do not alter any other class methods or features in this file.
         selected_columns = []  # COMPLETE HERE
         return selected_columns
 
