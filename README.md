@@ -1,7 +1,7 @@
 # Intro to CPS Security - Mini Project 4
 
 ## Environment Setup
-To setup the development environment, you need to have `python3` installed in your machine. Then, clone this github repo in your machine, `cd` into it, and run:
+To setup the development environment, you need to have `python3` installed in your machine. **Please ensure you are using Python 3.12 for this project.** Then, clone this github repo in your machine, `cd` into it, and run:
 
 ```
 python3 -m venv .venv
